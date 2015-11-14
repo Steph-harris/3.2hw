@@ -2,8 +2,26 @@
 <html>
 <head>
 	<title>3.2 HW</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 </head>
 <body>
+  <form class="form-inline">
+    <div class="form-group">
+      <label for="input">Is this a string?</label>
+      <input id="usrInput" class="form-control" placeholder="write a word or #">
+    </div>   
+    <button onclick="stringFinder();" class="btn btn-primary">Find Out</button>
+  </form>
+
+  <button onclick="smallNum();" class="btn btn-success">Click for Fun</button>
+
+  <form class="form-inline">
+    <div class="form-group">
+      <label for="input">Fill me with strings!</label>
+      <input id="mix" class="form-control" placeholder="write in me">  
+    </div>   
+    <button onclick="concatStr();" class="btn btn-warning">What'll Happen?</button>
+  </form>
  <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
